@@ -58,17 +58,17 @@
     <h2 class="text-3xl font-bold mb-10 text-violet-800">Meet the Team</h2>
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
         <div class="bg-white p-6 rounded-xl shadow-sm border border-violet-100">
-            <div class="w-20 h-20 mx-auto mb-4 rounded-full bg-violet-200"></div>
+            <img src="{{ asset('images/profile1.avif') }}" class="w-20 h-20 mx-auto mb-4 rounded-full object-cover">
             <h4 class="font-semibold text-violet-700">Jairo Banaag</h4>
             <p class="text-sm text-slate-500">Founder & Lead Developer</p>
         </div>
         <div class="bg-white p-6 rounded-xl shadow-sm border border-violet-100">
-            <div class="w-20 h-20 mx-auto mb-4 rounded-full bg-violet-200"></div>
+            <img src="{{ asset('images/profile2.jpg') }}" class="w-20 h-20 mx-auto mb-4 rounded-full object-cover">
             <h4 class="font-semibold text-violet-700">Team Member</h4>
             <p class="text-sm text-slate-500">Product Designer</p>
         </div>
         <div class="bg-white p-6 rounded-xl shadow-sm border border-violet-100">
-            <div class="w-20 h-20 mx-auto mb-4 rounded-full bg-violet-200"></div>
+            <img src="{{ asset('images/profile3.png') }}" class="w-20 h-20 mx-auto mb-4 rounded-full object-cover">
             <h4 class="font-semibold text-violet-700">Team Member</h4>
             <p class="text-sm text-slate-500">Project Coordinator</p>
         </div>
